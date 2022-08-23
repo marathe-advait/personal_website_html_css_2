@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <meta name = "description" content = "This is wensite is dedicated to Advait Marathe">
+    <title>Advait Marathe's Profile</title>
+    <link rel = "stylesheet" href = "css/style.css">
+    <link rel = "shortcut icon" href = "favicon.ico" type = "image/x-icon">
+</head>
+<body>
+    <div id = "nav-bar">
+        <center>
+            <a href = "#intro-container"> <img src = "images/home_icon.png" alt = "Home" class = "nav-icon"> </a>
+            <a href = "#about-the-author"> <img src = "images/author_icon.png" alt = "About the Author" class = "nav-icon"></a>
+            <a href = "#projects"> <img src = "images/project_icon.png" alt = "Projects" class = "nav-icon"></a>
+            <a href = "#contact"> <img src = "images/message_icon.png" alt = "Contact Us" class = "nav-icon"> </a>
+        </center>
+    </div>
+
+    <div id = "intro-container">
+        <img src = "images/landscape.png" alt = "landscape-image" id = "landscape">
+        <span id = "intro">
+            <h1>Advait Marathe </h1>
+            <h3>"The one that is no one like others."</h3>
+            <p>Living close to the nature and beyond worldly expectations..</p>
+        </span>  
+        <img src = "images/tree.png" alt = "tree-image" id = "other-tree">
+    </div>
+
+    <div id = "about-the-author">
+        <span id = "author-content">
+            Hello! My name is Advait Marathe. I am a tech enthusiast and I always look forward to new learning oppurtunities.I have previously worked on many technologies such as 
+            <a href = "https://www.python.org/">Python </a>, <a href = "https://en.wikipedia.org/wiki/C_(programming_language)">C</a>, <a href="https://en.wikipedia.org/wiki/C%2B%2B">C++</a>.
+            I have also created projects on technologies such as <a href = "https://en.wikipedia.org/wiki/Artificial_intelligence">Artificial Intelligence</a>, <a href = "https://en.wikipedia.org/wiki/Machine_learning">Machine Learning</a>, 
+            <a href = "https://en.wikipedia.org/wiki/Internet_of_things">Internet of Things</a>. Apart from being a tech enthusiast, I love to connect with new people. I always look forward to listen to their stories and get inspired everyday.
+            I believe is that true success is the one which is achieved by growing on your own and by supporting others to do the same.
+        </span>
+        <img src = "images/profile_picture.png" alt = "Advait Marathe" id = "profile-pic">
+    </div>
+
+    <div id = "projects">
+        Here are some of the projects I have worked on in the past few years - 
+        <table cellspacing = "30">
+            <thead>
+                <tr>
+                    <th>Project Title</th>
+                    <th>Duration</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>An Intelligent Approach to the State of Charge (SoC) estimation</td>
+                    <td>January 2022 to May 2022</td>
+                    <td>
+                        <p>
+                            This project explores the various existing methodologies to state of charge estimation in Li-ion
+                            batteries and weighs out the pros and cons of the same. Finally, the project proposes a novel
+                            Deep Feedforward Neural Network (DFNN) approach and the comparative analysis is carried out.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Optimization Of MPPT Curve Considering Nonlinearities <br>
+                        Using Evolutionary Algorithms
+                    </td>
+                    <td>August 2021 to December 2021</td>
+                    <td>
+                        <p>
+                            The performance of various optimization algorithms was tested by tracking of maximum power point (MPP)
+                            via the means of custom testbench functions and MATLAB Global Optimization Toolbox.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Detection Of Covid-19 Using Lung X-Ray</td>
+                    <td>January 2021 to May 2021</td>
+                    <td>
+                        <p>
+                            CNN was deployed using Keras framework with the Tensorflow backend. The images were pre-processed and
+                            basic exploratory data analysis (EDA) was carried out.
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Here are some of the important links which contains more projects as well as tasks carried out during graduation - </p>
+        <ul>
+            <li><a href = "https://github.com/marathe-advait/Previous_Projects"> Projects made as a part of embedded project component.</a></li>
+            <li><a href = "https://github.com/marathe-advait/Data-Structures-Using-C"> Data Structures and Algorithms Using C.</a></li>
+            <li><a href = "https://github.com/marathe-advait/Python-Programs"> Cryptic Code and Random Text Generator</a></li>
+        </ul> 
+    </div>
+
+    <div id = "contact">
+        <div id = "message">
+            <h1 style = "color: black;">Message Us</h1>
+            <form action = "mailto:ady2112mar@gmail.com" method = "post" enctype = "text/plain">
+                <strong>
+                    <table cellspacing = "20">
+                        <tr>
+                            <td><label>Name</label></td>
+                            <td><input type = "text" name = "yourName"> <br> </td>
+                        </tr>
+                        <tr>
+                            <td><label>Email</label></td>
+                            <td><input type = "email" name = "yourEmail" id = ""> <br> </td>
+                        </tr>
+                        <tr>
+                            <td>Message</td>
+                            <td> <textarea name="yourMsg" cols = "70" rows="10"> </textarea> </td>
+                        </tr>
+                        <tr>
+                            <td> <input type = "submit"> </td>
+                        </tr>
+                    </table>
+                </strong>
+            </form>
+        </div>
+    
+        <div id = "subscribe">
+            <h1 style = "color: black;">Subscribe</h1>
+            <form action = "mailto:ady2112mar@gmail.com" method = "post" enctype = "text/plain">
+                <strong>
+                    <table cellspacing = "20">
+                        <tr>
+                            <td> <label>Name</label> </td>
+                            <td> <input type = "text" name = "yourName"> </td>
+                        </tr>
+                        <tr>
+                            <td> <label>Email</label> </td>
+                            <td> <input type = "email" name = "yourEmail" id = ""> </td>
+                        </tr>
+                        <tr>
+                            <td> <label>DOB</label> </td>
+                            <td> <input type = "date" name = "yourDob" id = ""> </td>
+                        </tr>
+                        <tr>
+                            <td> <label>Do you accept the terms and conditions?</label> </td>
+                            <td> <input type = "checkbox" name = "yourConsent" id = ""> </td>
+                        </tr>
+                        <tr>
+                            <td> <input type = "submit"> </td>
+                        </tr>
+                    </table>
+                </strong>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
