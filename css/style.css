@@ -72,6 +72,7 @@ h2
     font-family: 'Lucida Handwriting';
     align-content: center;
     color: black;   
+    text-align: center;
 }
 
 h3
@@ -118,14 +119,103 @@ h3
 
 #projects
 {
-    height: 96%;
-    width: 96%;
+    height: 95%;
+    width: 95%;
     margin: 0%;
-    padding: 2%;
+    padding: 2.5%;
     font-family: sans-serif;
     font-size: large;
     color: #52734d;
     background-color: #ddffbc;
+}
+
+#skills
+{
+    height: 95%;
+    width: 95%;
+    margin: 0%;
+    padding: 2.5%;
+    font-family: sans-serif;
+    font-size: large;
+    color: #52734d;
+    display: grid;
+}
+
+.head
+{
+    grid-row: 1/ span 2;
+    grid-column: 1/ span 4;
+}
+
+figure 
+{
+    height: 250px;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.skill-1
+{
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.skill-2
+{
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.skill-3
+{
+    grid-row: 3;
+    grid-column: 3;
+}
+
+.skill-4
+{
+    grid-row: 3;
+    grid-column: 4;
+}
+
+.skill-5
+{
+    grid-row: 4;
+    grid-column: 1;
+}
+
+.skill-6
+{
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.skill-7
+{
+    grid-row: 4;
+    grid-column: 3;
+}
+
+.skill-8
+{
+    grid-row: 4;
+    grid-column: 4;
+}
+
+.icon
+{
+    height: 150px;
+    width: 150px;
+}
+
+
+
+figcaption
+{
+    text-align: center;
+    font-size: medium;
 }
 
 #contact
